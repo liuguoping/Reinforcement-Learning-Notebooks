@@ -1,3 +1,17 @@
+'''
+Implementation of maximum entropy inverse reinforcement learning in
+Ziebart et al. 2008 paper: Maximum Entropy Inverse Reinforcement Learning
+https://www.aaai.org/Papers/AAAI/2008/AAAI08-227.pdf
+
+Acknowledgement:
+This implementation refers :
+1. https://github.com/MatthewJA/Inverse-Reinforcement-Learning/blob/master/irl/maxent.py
+2. https://github.com/stormmax/irl-imitation/blob/master/maxent_irl.py
+3. https://github.com/prabhatnagarajan/meirl/blob/master/meirl.py
+
+By Guoping Liu (liuguoping617@163.com), Feb 2018
+'''
+
 import matplotlib.pyplot as plt
 import numpy as np
 import math
